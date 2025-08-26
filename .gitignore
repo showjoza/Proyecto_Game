@@ -34,3 +34,37 @@ Thumbs.db
 # Archivos de SFML runtime (los dll van ignorados)
 /SFML-*/bin/
 /SFML-*/lib/
+
+
+# Visual Studio general
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.vcxproj.filters
+
+# Compilados y temporales
+x64/
+Debug/
+Release/
+*.obj
+*.pdb
+*.idb
+*.log
+*.tlog
+*.ipch
+*.db
+*.opendb
+*.cache
+*.tmp
+
+# Archivos de configuración automática
+*.VC.db
+*.VC.opendb
+
+# Archivos del sistema
+Thumbs.db
+Desktop.ini
+
+# SFML DLLs (no se versionan, solo van junto al .exe localmente)
+*.dll
