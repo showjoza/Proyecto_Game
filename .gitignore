@@ -1,0 +1,36 @@
+# Archivos y carpetas de Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.user
+*.tlog
+*.log
+*.pdb
+*.opendb
+*.db
+*.idb
+*.cache
+*.ipch
+
+# Carpetas de compilación
+/Debug/
+/Release/
+/x64/
+/x86/
+/bin/
+/obj/
+
+# Archivos temporales
+*.tmp
+*.bak
+Thumbs.db
+
+# Librerías compiladas (no subirlas al repo)
+*.dll
+*.exe
+*.lib
+
+# Archivos de SFML runtime (los dll van ignorados)
+/SFML-*/bin/
+/SFML-*/lib/
